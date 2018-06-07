@@ -1,0 +1,20 @@
+// curlpop3.idl : IDL source for curlpop3.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (curlpop3.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(702563A4-C3CD-4A87-B6F8-A7C54643BCC8),
+	version(1.0),
+	helpstring("curlpop3 1.0 Type Library")
+]
+library curlemailLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{2F1C0FBF-69AB-4656-A821-5FF691650C12} = s 'curlpop3'
+		'curlpop3.EXE'
+		{
+			val AppID = s {2F1C0FBF-69AB-4656-A821-5FF691650C12}
+		}
+	}
+}
